@@ -31,7 +31,7 @@ if stream is not None:
 
 
 
-class OpenCamera (VideoProcessorBase):
+class OpenCamera (VideoHTMLAttributes):
     def __init__(self) -> None :
         self.sequence = []
         self.sentence = []
